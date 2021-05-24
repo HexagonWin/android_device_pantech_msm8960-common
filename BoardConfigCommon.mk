@@ -15,7 +15,7 @@
 # Inherit from Sony common
 #include device/pantech/msm8960-common/BoardConfigCommon.mk
 
-TARGET_SPECIFIC_HEADER_PATH += device/pantech/msm8960-common/include
+#TARGET_SPECIFIC_HEADER_PATH += device/pantech/msm8960-common/include
 
 # Architecture
 TARGET_ARCH := arm
@@ -89,7 +89,7 @@ TARGET_NO_RPC := true
 
 # RIL
 #BOARD_PROVIDES_LIBRIL := true
-BOARD_HAS_RIL_LEGACY_PAP := true
+#BOARD_HAS_RIL_LEGACY_PAP := true
 BOARD_RIL_CLASS := ../../../device/pantech/msm8960-common/ril/
 
 # Needed for blobs
